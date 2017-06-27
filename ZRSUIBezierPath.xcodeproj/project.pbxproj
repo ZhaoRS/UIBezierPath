@@ -15,6 +15,7 @@
 		E58FA20E1F01EB50001E3306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58FA20C1F01EB50001E3306 /* LaunchScreen.storyboard */; };
 		E58FA2191F01EB50001E3306 /* ZRSUIBezierPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FA2181F01EB50001E3306 /* ZRSUIBezierPathTests.m */; };
 		E58FA2241F01EB50001E3306 /* ZRSUIBezierPathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FA2231F01EB50001E3306 /* ZRSUIBezierPathUITests.m */; };
+		E58FA2331F01F1EE001E3306 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FA2321F01F1EE001E3306 /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E58FA21F1F01EB50001E3306 /* ZRSUIBezierPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRSUIBezierPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58FA2231F01EB50001E3306 /* ZRSUIBezierPathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRSUIBezierPathUITests.m; sourceTree = "<group>"; };
 		E58FA2251F01EB50001E3306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58FA2311F01F1EE001E3306 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		E58FA2321F01F1EE001E3306 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E58FA2021F01EB50001E3306 /* AppDelegate.m */,
 				E58FA2041F01EB50001E3306 /* ViewController.h */,
 				E58FA2051F01EB50001E3306 /* ViewController.m */,
+				E58FA2311F01F1EE001E3306 /* BezierPathView.h */,
+				E58FA2321F01F1EE001E3306 /* BezierPathView.m */,
 				E58FA2071F01EB50001E3306 /* Main.storyboard */,
 				E58FA20A1F01EB50001E3306 /* Assets.xcassets */,
 				E58FA20C1F01EB50001E3306 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58FA2331F01F1EE001E3306 /* BezierPathView.m in Sources */,
 				E58FA2061F01EB50001E3306 /* ViewController.m in Sources */,
 				E58FA2031F01EB50001E3306 /* AppDelegate.m in Sources */,
 				E58FA2001F01EB50001E3306 /* main.m in Sources */,
@@ -509,6 +515,7 @@
 				E58FA22A1F01EB50001E3306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E58FA22B1F01EB50001E3306 /* Build configuration list for PBXNativeTarget "ZRSUIBezierPathTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				E58FA22D1F01EB50001E3306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E58FA22E1F01EB50001E3306 /* Build configuration list for PBXNativeTarget "ZRSUIBezierPathUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				E58FA2301F01EB50001E3306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
