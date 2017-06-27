@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E58FA2001F01EB50001E3306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FA1FF1F01EB50001E3306 /* main.m */; };
+		E58FA2031F01EB50001E3306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FA2021F01EB50001E3306 /* AppDelegate.m */; };
+		E58FA2061F01EB50001E3306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FA2051F01EB50001E3306 /* ViewController.m */; };
+		E58FA2091F01EB50001E3306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58FA2071F01EB50001E3306 /* Main.storyboard */; };
+		E58FA20B1F01EB50001E3306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58FA20A1F01EB50001E3306 /* Assets.xcassets */; };
+		E58FA20E1F01EB50001E3306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58FA20C1F01EB50001E3306 /* LaunchScreen.storyboard */; };
+		E58FA2191F01EB50001E3306 /* ZRSUIBezierPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FA2181F01EB50001E3306 /* ZRSUIBezierPathTests.m */; };
+		E58FA2241F01EB50001E3306 /* ZRSUIBezierPathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FA2231F01EB50001E3306 /* ZRSUIBezierPathUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E58FA2151F01EB50001E3306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E58FA1F31F01EB50001E3306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58FA1FA1F01EB50001E3306;
+			remoteInfo = ZRSUIBezierPath;
+		};
+		E58FA2201F01EB50001E3306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E58FA1F31F01EB50001E3306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58FA1FA1F01EB50001E3306;
+			remoteInfo = ZRSUIBezierPath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E58FA1FB1F01EB50001E3306 /* ZRSUIBezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRSUIBezierPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58FA1FF1F01EB50001E3306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E58FA2011F01EB50001E3306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E58FA2021F01EB50001E3306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E58FA2041F01EB50001E3306 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E58FA2051F01EB50001E3306 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E58FA2081F01EB50001E3306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E58FA20A1F01EB50001E3306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E58FA20D1F01EB50001E3306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E58FA20F1F01EB50001E3306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58FA2141F01EB50001E3306 /* ZRSUIBezierPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRSUIBezierPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58FA2181F01EB50001E3306 /* ZRSUIBezierPathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRSUIBezierPathTests.m; sourceTree = "<group>"; };
+		E58FA21A1F01EB50001E3306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58FA21F1F01EB50001E3306 /* ZRSUIBezierPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRSUIBezierPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58FA2231F01EB50001E3306 /* ZRSUIBezierPathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRSUIBezierPathUITests.m; sourceTree = "<group>"; };
+		E58FA2251F01EB50001E3306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E58FA1F81F01EB50001E3306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58FA2111F01EB50001E3306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58FA21C1F01EB50001E3306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E58FA1F21F01EB50001E3306 = {
+			isa = PBXGroup;
+			children = (
+				E58FA1FD1F01EB50001E3306 /* ZRSUIBezierPath */,
+				E58FA2171F01EB50001E3306 /* ZRSUIBezierPathTests */,
+				E58FA2221F01EB50001E3306 /* ZRSUIBezierPathUITests */,
+				E58FA1FC1F01EB50001E3306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E58FA1FC1F01EB50001E3306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E58FA1FB1F01EB50001E3306 /* ZRSUIBezierPath.app */,
+				E58FA2141F01EB50001E3306 /* ZRSUIBezierPathTests.xctest */,
+				E58FA21F1F01EB50001E3306 /* ZRSUIBezierPathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E58FA1FD1F01EB50001E3306 /* ZRSUIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				E58FA2011F01EB50001E3306 /* AppDelegate.h */,
+				E58FA2021F01EB50001E3306 /* AppDelegate.m */,
+				E58FA2041F01EB50001E3306 /* ViewController.h */,
+				E58FA2051F01EB50001E3306 /* ViewController.m */,
+				E58FA2071F01EB50001E3306 /* Main.storyboard */,
+				E58FA20A1F01EB50001E3306 /* Assets.xcassets */,
+				E58FA20C1F01EB50001E3306 /* LaunchScreen.storyboard */,
+				E58FA20F1F01EB50001E3306 /* Info.plist */,
+				E58FA1FE1F01EB50001E3306 /* Supporting Files */,
+			);
+			path = ZRSUIBezierPath;
+			sourceTree = "<group>";
+		};
+		E58FA1FE1F01EB50001E3306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E58FA1FF1F01EB50001E3306 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E58FA2171F01EB50001E3306 /* ZRSUIBezierPathTests */ = {
+			isa = PBXGroup;
+			children = (
+				E58FA2181F01EB50001E3306 /* ZRSUIBezierPathTests.m */,
+				E58FA21A1F01EB50001E3306 /* Info.plist */,
+			);
+			path = ZRSUIBezierPathTests;
+			sourceTree = "<group>";
+		};
+		E58FA2221F01EB50001E3306 /* ZRSUIBezierPathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E58FA2231F01EB50001E3306 /* ZRSUIBezierPathUITests.m */,
+				E58FA2251F01EB50001E3306 /* Info.plist */,
+			);
+			path = ZRSUIBezierPathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E58FA1FA1F01EB50001E3306 /* ZRSUIBezierPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58FA2281F01EB50001E3306 /* Build configuration list for PBXNativeTarget "ZRSUIBezierPath" */;
+			buildPhases = (
+				E58FA1F71F01EB50001E3306 /* Sources */,
+				E58FA1F81F01EB50001E3306 /* Frameworks */,
+				E58FA1F91F01EB50001E3306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRSUIBezierPath;
+			productName = ZRSUIBezierPath;
+			productReference = E58FA1FB1F01EB50001E3306 /* ZRSUIBezierPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E58FA2131F01EB50001E3306 /* ZRSUIBezierPathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58FA22B1F01EB50001E3306 /* Build configuration list for PBXNativeTarget "ZRSUIBezierPathTests" */;
+			buildPhases = (
+				E58FA2101F01EB50001E3306 /* Sources */,
+				E58FA2111F01EB50001E3306 /* Frameworks */,
+				E58FA2121F01EB50001E3306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58FA2161F01EB50001E3306 /* PBXTargetDependency */,
+			);
+			name = ZRSUIBezierPathTests;
+			productName = ZRSUIBezierPathTests;
+			productReference = E58FA2141F01EB50001E3306 /* ZRSUIBezierPathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E58FA21E1F01EB50001E3306 /* ZRSUIBezierPathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58FA22E1F01EB50001E3306 /* Build configuration list for PBXNativeTarget "ZRSUIBezierPathUITests" */;
+			buildPhases = (
+				E58FA21B1F01EB50001E3306 /* Sources */,
+				E58FA21C1F01EB50001E3306 /* Frameworks */,
+				E58FA21D1F01EB50001E3306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58FA2211F01EB50001E3306 /* PBXTargetDependency */,
+			);
+			name = ZRSUIBezierPathUITests;
+			productName = ZRSUIBezierPathUITests;
+			productReference = E58FA21F1F01EB50001E3306 /* ZRSUIBezierPathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E58FA1F31F01EB50001E3306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "赵瑞生";
+				TargetAttributes = {
+					E58FA1FA1F01EB50001E3306 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					E58FA2131F01EB50001E3306 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E58FA1FA1F01EB50001E3306;
+					};
+					E58FA21E1F01EB50001E3306 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E58FA1FA1F01EB50001E3306;
+					};
+				};
+			};
+			buildConfigurationList = E58FA1F61F01EB50001E3306 /* Build configuration list for PBXProject "ZRSUIBezierPath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E58FA1F21F01EB50001E3306;
+			productRefGroup = E58FA1FC1F01EB50001E3306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E58FA1FA1F01EB50001E3306 /* ZRSUIBezierPath */,
+				E58FA2131F01EB50001E3306 /* ZRSUIBezierPathTests */,
+				E58FA21E1F01EB50001E3306 /* ZRSUIBezierPathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E58FA1F91F01EB50001E3306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58FA20E1F01EB50001E3306 /* LaunchScreen.storyboard in Resources */,
+				E58FA20B1F01EB50001E3306 /* Assets.xcassets in Resources */,
+				E58FA2091F01EB50001E3306 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58FA2121F01EB50001E3306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58FA21D1F01EB50001E3306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E58FA1F71F01EB50001E3306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58FA2061F01EB50001E3306 /* ViewController.m in Sources */,
+				E58FA2031F01EB50001E3306 /* AppDelegate.m in Sources */,
+				E58FA2001F01EB50001E3306 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58FA2101F01EB50001E3306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58FA2191F01EB50001E3306 /* ZRSUIBezierPathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58FA21B1F01EB50001E3306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58FA2241F01EB50001E3306 /* ZRSUIBezierPathUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E58FA2161F01EB50001E3306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E58FA1FA1F01EB50001E3306 /* ZRSUIBezierPath */;
+			targetProxy = E58FA2151F01EB50001E3306 /* PBXContainerItemProxy */;
+		};
+		E58FA2211F01EB50001E3306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E58FA1FA1F01EB50001E3306 /* ZRSUIBezierPath */;
+			targetProxy = E58FA2201F01EB50001E3306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E58FA2071F01EB50001E3306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58FA2081F01EB50001E3306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E58FA20C1F01EB50001E3306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58FA20D1F01EB50001E3306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E58FA2261F01EB50001E3306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E58FA2271F01EB50001E3306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E58FA2291F01EB50001E3306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZRSUIBezierPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSUIBezierPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E58FA22A1F01EB50001E3306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZRSUIBezierPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSUIBezierPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E58FA22C1F01EB50001E3306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZRSUIBezierPathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSUIBezierPathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZRSUIBezierPath.app/ZRSUIBezierPath";
+			};
+			name = Debug;
+		};
+		E58FA22D1F01EB50001E3306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZRSUIBezierPathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSUIBezierPathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZRSUIBezierPath.app/ZRSUIBezierPath";
+			};
+			name = Release;
+		};
+		E58FA22F1F01EB50001E3306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZRSUIBezierPathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSUIBezierPathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZRSUIBezierPath;
+			};
+			name = Debug;
+		};
+		E58FA2301F01EB50001E3306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZRSUIBezierPathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZRS.ZRSUIBezierPathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZRSUIBezierPath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E58FA1F61F01EB50001E3306 /* Build configuration list for PBXProject "ZRSUIBezierPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58FA2261F01EB50001E3306 /* Debug */,
+				E58FA2271F01EB50001E3306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58FA2281F01EB50001E3306 /* Build configuration list for PBXNativeTarget "ZRSUIBezierPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58FA2291F01EB50001E3306 /* Debug */,
+				E58FA22A1F01EB50001E3306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E58FA22B1F01EB50001E3306 /* Build configuration list for PBXNativeTarget "ZRSUIBezierPathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58FA22C1F01EB50001E3306 /* Debug */,
+				E58FA22D1F01EB50001E3306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E58FA22E1F01EB50001E3306 /* Build configuration list for PBXNativeTarget "ZRSUIBezierPathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58FA22F1F01EB50001E3306 /* Debug */,
+				E58FA2301F01EB50001E3306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E58FA1F31F01EB50001E3306 /* Project object */;
+}
